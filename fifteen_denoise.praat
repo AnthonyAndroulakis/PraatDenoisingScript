@@ -19,7 +19,7 @@ for ifile to numberOfFiles
 	select all
 	minus Strings list
 	Remove
-
+	
 endfor
 
 select all
