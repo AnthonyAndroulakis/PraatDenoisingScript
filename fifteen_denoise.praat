@@ -1,8 +1,5 @@
 #fifteen_denoise.praat
 #denoises all audio files by 15 db
-#CD to phonemeAnalysis folder in allwavs folder right before running this
-#used for phoneme identification and analysis after vad command is run
-#graph is created with these audio files and shaded with denoise20 audio files
 
 Create Strings as file list... list ./*.wav
 numberOfFiles = Get number of strings
